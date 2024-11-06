@@ -1,0 +1,77 @@
+unit UnPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    BtbSoma: TButton;
+    BtnSub: TButton;
+    BtnMult: TButton;
+    BtnDiv: TButton;
+    EditResult: TEdit;
+    EditNum2: TEdit;
+    EditNum1: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure BtbOperacaoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+  const
+  TAG_SOMA = 1;
+  TAG_SUB = 2;
+  TAG_MULT = 3;
+  TAG_DIV = 4;
+
+  procedure TFormPrincipal.BtbOperacaoClick(Sender: TObject);
+  begin
+
+    try
+
+      case TButton(Sender).Tag of
+
+        TAG_SOMA:
+          begin
+
+          end;
+
+        TAG_SUB:
+          begin
+
+          end;
+
+        TAG_MULT:
+          begin
+
+          end;
+        TAG_DIV:
+          begin
+
+          end;
+      else
+        ShowMessage('Operação Inválida');
+      end;
+
+    except
+      on E: Exception do
+        ShowMessage(E.Message);
+    end;
+
+  end;
+
+end.

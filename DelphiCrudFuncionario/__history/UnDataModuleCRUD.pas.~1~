@@ -1,0 +1,25 @@
+unit UnDataModuleCRUD;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TDataModuleCRUD = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModuleCRUD: TDataModuleCRUD;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

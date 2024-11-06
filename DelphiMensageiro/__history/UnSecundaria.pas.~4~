@@ -1,0 +1,30 @@
+unit UnSecundaria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormSecundaria = class(TForm)
+    Label1: TLabel;
+    LblMsgShow: TLabel;
+    BtnConfirmar: TButton;
+    BtnCancelar: TButton;
+  private
+    { Private declarations }
+    _mensagem : string;
+  public
+    { Public declarations }
+     property Mensagem: string read _mensagem write _mensagem;
+  end;
+
+var
+  FormSecundaria: TFormSecundaria;
+
+implementation
+
+{$R *.dfm}
+
+end.

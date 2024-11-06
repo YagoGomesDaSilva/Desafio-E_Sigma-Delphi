@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/11/03 23:34:09.000.550,=C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/03 23:36:55.000.721,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\GOD Programation\Linguagens de Programação\Delphi\DelphiCalculadora\UnPrincipal.pas</Transaction>
+    <Transaction>2024/11/03 23:36:55.000.721,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\GOD Programation\Linguagens de Programação\Delphi\DelphiCalculadora\UnPrincipal.dfm</Transaction>
+    <Transaction>2024/11/03 23:37:22.000.565,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\GOD Programation\Linguagens de Programação\Delphi\DelphiCalculadora\Calculadora.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

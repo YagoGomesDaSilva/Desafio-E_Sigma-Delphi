@@ -1,0 +1,4 @@
+object DataModuleCRUD: TDataModuleCRUD
+  Height = 480
+  Width = 640
+end
