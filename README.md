@@ -115,10 +115,12 @@ Este projeto implementa um cadastro básico de funcionários, utilizando o FireD
 1. Certifique-se de que o SQLite está instalado e configurado.
 2. Crie uma tabela chamada `Funcionarios` com os campos `Codigo`, `Nome`, `CPF` e `DataNascimento` antes de executar o projeto CRUD.
 
+``` Tabela
 CREATE TABLE Funcionario (
     Codigo INTEGER PRIMARY KEY AUTOINCREMENT,
     Nome VARCHAR(100) NOT NULL,
     CPF CHAR(11) UNIQUE NOT NULL,
     DataNascimento DATE NOT NULL
 );
+```
 
